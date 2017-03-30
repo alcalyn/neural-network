@@ -1,0 +1,18 @@
+{
+    "name":         "alcalyn/neural-network",
+    "license":      "MIT",
+    "type":         "library",
+    "description":  "Create a multilayer perceptron and make it learn. ",
+    "homepage":     "https://github.com/alcalyn/neural-network",
+    "authors": [
+        {
+            "name": "Julien Maulny",
+            "email": "doubjulien@hotmail.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
