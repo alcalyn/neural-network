@@ -2,7 +2,7 @@
     "name":         "alcalyn/neural-network",
     "license":      "MIT",
     "type":         "library",
-    "description":  "Create a multilayer perceptron and make it learn. ",
+    "description":  "Create a multilayer perceptron and make it learn life.",
     "homepage":     "https://github.com/alcalyn/neural-network",
     "authors": [
         {

@@ -1,26 +1,10 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require_once '../../vendor/autoload.php';
 
-$network = new Network([49, 64, 128, 10]);
+$network = new Network([49, 64, 64, 11]);
 $network->e = 1;
 
-
-//echo $network;
-
-function number($n) {
-    $out = [];
-
-    for ($i = 0; $i < 10; $i++) {
-        if ($i === $n) {
-            $out []= 1;
-        } else {
-            $out []= 0;
-        }
-    }
-
-    return $out;
-}
 
 $samples = require 'number-samples.php';
 

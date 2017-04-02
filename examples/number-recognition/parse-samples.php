@@ -59,14 +59,18 @@ function imageToArray($imagePath, $negateImage = false) {
 
 function number($n) {
     $out = [];
+    $isNumber = false;
 
     for ($i = 0; $i < 10; $i++) {
         if ($i === $n) {
             $out []= 1;
+            $isNumber = true;
         } else {
             $out []= 0;
         }
     }
+
+    $out []= $isNumber ? 0 : 1;
 
     return $out;
 }

@@ -161,6 +161,9 @@ class Network
         return $this->layers[count($this->layers) - 1];
     }
 
+    /**
+     * @return string
+     */
     public function __toString()
     {
         $output = '';
