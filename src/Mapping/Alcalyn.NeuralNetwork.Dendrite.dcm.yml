@@ -1,0 +1,23 @@
+Alcalyn\NeuralNetwork\Dendrite:
+    type: entity
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        w:
+            type: float
+    manyToOne:
+        neuron:
+            targetEntity: Alcalyn\NeuralNetwork\Neuron
+            joinTable:
+                name: dendrite_neuron
+            cascade:
+                - persist
+        neuronFrom:
+            targetEntity: Alcalyn\NeuralNetwork\Neuron
+            joinTable:
+                name: dendrite_neuron_from
+            cascade:
+                - persist

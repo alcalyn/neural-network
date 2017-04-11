@@ -2,6 +2,8 @@
 
 require_once '../../vendor/autoload.php';
 
+use Alcalyn\NeuralNetwork\Network;
+
 $network = new Network([2, 4, 1]);
 $network->e = 1;
 

@@ -1,0 +1,15 @@
+Alcalyn\NeuralNetwork\Layer:
+    type: entity
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        size:
+            type: integer
+    manyToMany:
+        neurons:
+            targetEntity: Alcalyn\NeuralNetwork\Neuron
+            cascade:
+                - all

@@ -1,0 +1,20 @@
+Alcalyn\NeuralNetwork\Network:
+    type: entity
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            unique: true
+        e:
+            type: float
+        structure:
+            type: simple_array
+    manyToMany:
+        layers:
+            targetEntity: Alcalyn\NeuralNetwork\Layer
+            cascade:
+                - all

@@ -1,7 +1,14 @@
 <?php
 
+namespace Alcalyn\NeuralNetwork;
+
 class Layer
 {
+    /**
+     * @var int
+     */
+    public $id;
+
     /**
      * @var int
      */

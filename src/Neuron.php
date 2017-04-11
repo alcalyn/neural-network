@@ -1,7 +1,14 @@
 <?php
 
+namespace Alcalyn\NeuralNetwork;
+
 class Neuron
 {
+    /**
+     * @var int
+     */
+    public $id;
+
     /**
      * @var Dendrite[]
      */

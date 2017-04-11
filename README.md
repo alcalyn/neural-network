@@ -7,6 +7,8 @@ Create a multilayer perceptron and make it learn.
 ## Usage
 
 ``` php
+use Alcalyn\NeuralNetwork\Network;
+
 # Creates a new multilayer perceptron
 $network = new Network([2, 4, 1]);
 

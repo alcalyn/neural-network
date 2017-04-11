@@ -1,7 +1,19 @@
 <?php
 
+namespace Alcalyn\NeuralNetwork;
+
 class Network
 {
+    /**
+     * @var int
+     */
+    public $id;
+
+    /**
+     * @var string
+     */
+    public $name;
+
     /**
      * @var float
      */
